@@ -1,5 +1,47 @@
+<!--DOMACI 11
+Zadatak 1-->
+<!--<html>  
+    <body>  
+        <form method="post">  
+Prvi broj:  
+<input type="number" name="broj1" /><br>  
+Drugi broj:  
+<input type="number" name="broj2" /><br>
+<input  type="submit" name="submit" value="sabiranje">  
+        </form>  
+<?php  
+/*
+    if(isset($_POST['submit']))  
+    {  
+        $broj1 = $_POST['broj1'];  
+        $broj2 = $_POST['broj2'];  
+        $zbir =  $broj1+$broj2;     
+echo "Zbir $broj1 i $broj2 je ". $zbir;   
+}  
+?>
+    </body>  
+</html>-->
+
 <?php
 
+//Zadatak 2
+/*
+$dan=rand(0, 6);
+$daniunedelji=["Ponedeljak", "Utorak", "Sreda", "Cetvrtak", "Petak", "Subota", "Nedelja"];
+echo "Danas je " . $daniunedelji[$dan];
+*/
+
+//Zadatak3
+/*
+function sabiranje3broja(int $a, int $b, int $c)
+{
+    return $a + $b + $c;
+}
+
+echo "Zbir brojeva 5, 3 i 7 je " . sabiranje3broja(5, 3, 7) . ".";
+*/
+
+//DOMACI 10
 /*
 Zadatak 1
 $a = 200;
