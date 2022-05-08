@@ -1,0 +1,381 @@
+.menislika {
+    display: none;
+}
+body {
+    height: 5000px;
+    background-color: rgb(236, 236, 236);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.slikapopustapatika {
+    display: none;
+}
+
+#lista1 li {
+    display: inline-block;
+}
+
+#container {
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+header {
+    text-align: center;
+    border: 1px solid black;
+    width: 100%;
+    position: sticky;
+    top: 0%;
+    background-color: rgb(20, 115, 153);
+    border-radius: 10px 10px 0px 0px;
+}
+
+header nav ul li a.navigacionimeni {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgb(236, 236, 236);
+    font-weight: bold;
+    border: 0.5px solid black;
+}
+
+main {
+    height: 600px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.divmain {
+    height: 30%;
+    width: 30%;
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer {
+    border: 1px solid black;
+    height: auto;
+    width: 100%;
+    clear: both;
+    background-color: rgb(20, 115, 153);
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#containerfooter {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 1%;
+}
+
+#zakonskopravo {
+    width: 20%;
+    margin-top: 2%;
+}
+
+.lista_footer {
+padding-left: 5%;
+padding-right: 5%;
+color: white;
+}
+
+#copyright {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.literatura {
+    color: white;
+    text-decoration: none;
+}
+
+#registerilogin {
+    width: 20%;
+}
+
+
+aside {
+    height: 600px;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 167);
+    border-radius: 10px;
+}
+
+.divaside {
+    height: 30%;
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+main, aside {
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(20, 115, 153);
+}
+
+.divslikapatike {
+    width: 70%;
+}
+
+.patike {
+    width: 90%;
+    border-radius: 0 20px 0 20px;
+    margin-left: 3%;
+}
+
+.imepatika {
+    font-weight: bold;
+    font-size: larger;
+    color: rgb(48, 48, 61);
+    padding-left: 10px;
+}
+
+.imepatikalink {
+    text-decoration: none;
+}
+
+.cena {
+    font-weight: bold;
+}
+
+.dugme {
+    background-color: rgb(140, 234, 0);
+    border-radius: 10px;
+}
+
+div.cenaidugme {
+    width: 20%;
+    margin-bottom: 3%;
+    margin-right: 3%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.slikaicena {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.bojepatika {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.patikeporavnato {
+    display: inline-block;
+}
+
+#padajucimeni {
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.skroldugmelink {
+    position: fixed;
+    top: 95%;
+    bottom: 7%;
+    right: 5%;
+    background-color: rgb(255, 0, 0);
+    width: 35px;
+    height: 25px;
+    border: 0.5px solid black;
+    text-decoration: none;
+    padding: 6px 6px 0px 6px;
+    font-weight: bold;
+    color: white;
+}
+
+a.navigacionimeni:hover {
+    background-color: white;
+    border: solid black 4px;
+}
+
+.divmain:hover {
+    background-color: white;
+    border: solid black 4px;
+    height: 32%;
+    width: 32%;
+}
+
+#padajucimeni:first-child {
+    font-weight: bold;
+}
+
+span:nth-child(1) {
+    font-weight: bold;
+}
+
+.patike:first-child {
+    border: 1px solid black;
+}
+
+.dugme:last-child {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 576px) {  
+    header {
+        height: 120px;
+    }
+    header nav ul li .navigacionimeni {
+        display: none;
+    }
+    header img.menislika {
+        height: 40px;
+        display: block;
+        float: right;
+        margin-right: 20px;
+    }
+
+    .dot {
+        height: 20px;
+        width: 60px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20%;
+        position: fixed;
+        top: 140px;
+        left: 20px;
+        text-align: center;
+        border: 0.5px solid black;
+      }
+
+    aside {
+        display: none;
+    }
+
+    main {
+        height: auto;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    .divmain {
+        width: 90%;
+        height: auto;
+        margin: 5px;
+    }
+
+    .divmain:hover {
+        width: 91%;
+    }
+
+    .patike {
+        margin-bottom: 5px;
+    }
+}
+
+
+@media only screen and (min-width: 577px) and (max-width: 991px) {
+    .menislika {
+        display: none;
+    }
+
+    .dot {
+        display: none;
+    }
+    
+    aside {
+        height: auto;
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: rgb(255, 255, 167);
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    main, aside {
+        margin: 10px;
+        border-radius: 10px;
+        background-color: rgb(20, 115, 153);
+    }
+    main {
+        height: auto;
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .divmain {
+        width: 45%;
+        height: 18%;
+        margin: 5px;
+    }
+    .divaside {
+        margin: 5px;
+    }
+
+    .divmain:hover {
+        width: 46%;
+        height: 19%;
+    }
+
+    .cenaidugme {
+        padding-bottom: 3%;
+    }
+
+}
+
+
+@media only screen and (min-width: 992px) {
+    .menislika {
+        display: none;
+    }
+
+    .dot {
+        display: none;
+    }
+
+    .slikapopustapatika {
+        display: inline-block;
+        width: 90%;
+        height: 40%;
+        margin-top: 12px;
+    }
+
+    main {
+        height: 1300px;
+    }
+
+    .divmain {
+        height: 15%;
+    }
+
+    .divmain:hover {
+        height: 16%;
+    }
+
+    .cenaidugme {
+        padding-bottom: 3%;
+    }
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="lista1">
+                <li><a href="index.html" class="navigacionimeni">HOME</a></li>
+                <li><a href="products.html" class="navigacionimeni">PRODUCTS</a></li>
+                <li><a href="contact-us.html" class="navigacionimeni">CONTACT US</a></li>
+                <li><a href="about-us.html" class="navigacionimeni">ABOUT US</a></li>
+            </ul>
+        </nav>
+        <img class="menislika" src="meni.png" alt="meni">
+    </header>
+    <form method="get" action="register.php" class="formaregister">
+        <br>
+        <label for="ime">Ime:</label><br>
+        <input type="text" id="ime" name="ime" placeholder="Petar"><br><br>
+        <label for="prezime">Prezime:</label><br>
+        <input type="text" id="prezime" name="prezime" placeholder="Petrovic"><br><br>
+        <label>Izaberi pol:</label><br>
+        <input type="radio" id="male" class="pol" value="muski" name="gender">
+        <label for="male">Muski</label>
+        <input type="radio" id="female" class="pol" value="zenski" name="gender">
+        <label for="female">Zenski</label><br><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" placeholder="imeprezime@gmail.com"><br><br>
+        <label for="password">Šifra:</label><br>
+        <input type="password" id="password" name="password" placeholder="your password" minlength="8"><br><br>
+        <label for="re-password">Ponovljena šifra:</label><br>
+        <input type="password" id="re-password" name="re_password" placeholder="your password" minlength="8"><br><br>
+        <label for="sacuvaj">Sacuvaj unete podatke:</label><br>
+        <button type="submit" value="Sacuvaj" id="sacuvaj" name="sacuvaj">Sacuvaj</button><br><br>
+        <label for="ponisti">Ponisti unete podatke:</label><br>
+        <button type="reset" value="Ponisti" id="ponisti" name="ponisti">Ponisti</button><br><br>
+    </form>
+    <div class="skroldugme">
+        <a href="#" class="skroldugmelink">TOP</a>
+    </div>
+    <footer>
+        <div id="containerfooter">
+            <div class="lista_footer">
+                <label>Literatura za HTML</label>
+                <ul>
+                    <li><a href="https://www.w3schools.com/html/default.asp" target="_blank" class="literatura">W3 Schools</a></li>
+                    <li><a href="https://www.w3schools.com/html/default.asp" target="_blank" class="literatura">W3 Schools</a></li>
+                    <li><a href="https://www.w3schools.com/html/default.asp" target="_blank" class="literatura">W3 Schools</a></li>
+                    <li><a href="https://www.w3schools.com/html/default.asp" target="_blank" class="literatura">W3 Schools</a></li>
+                </ul>
+            </div>
+            <div class="lista_footer">
+                <label>Literatura za CSS</label>
+                <ul>
+                <li><a href="https://www.w3schools.com/css/default.asp" target="_blank" class="literatura">W3 Schools</a></li>
+                <li><a href="https://www.w3schools.com/css/default.asp" target="_blank" class="literatura">W3 Schools</a></li>
+                <li><a href="https://www.w3schools.com/css/default.asp" target="_blank" class="literatura">W3 Schools</a></li>
+                <li><a href="https://www.w3schools.com/css/default.asp" target="_blank" class="literatura">W3 Schools</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="registerilogin">
+            <ul>
+                <li><a href="register.html" class="literatura">Register</a></li>
+                <li><a href="login.html" class="literatura">Login</a></li>
+            </ul>
+        </div>
+        <div id="zakonskopravo">
+            <label><a href="https://itbootcamp.rs/" target="_blank" id="copyright">Copyright - IT Bootcamp</a></label>
+        </div>
+    </footer>
+</body>
+</html>
