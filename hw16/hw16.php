@@ -1,5 +1,5 @@
 <?php
-// Domaci 16
+// Domaci 16.
 // Zadatak 1
 /*
 foreach (array(
