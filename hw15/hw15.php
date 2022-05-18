@@ -78,4 +78,3 @@ echo $data['id4']['name'] . " " . $data['id4']['last_name'] . " ima " . $data['i
 echo $data['id5']['name'] . " " . $data['id5']['last_name'] . " ima " . $data['id5']['age'] . " godina i ozenjen je. " . "Ima prosecnu ocenu " . $data['id5']['avg_rating'] . "," . " a kurseve koje trenutno slusa su: " . $data['id5']['courses'] . "<br>";
 */
 ?>
-
