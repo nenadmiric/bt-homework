@@ -76,5 +76,7 @@ echo $data['id2']['name'] . " " . $data['id2']['last_name'] . " ima " . $data['i
 echo $data['id3']['name'] . " " . $data['id3']['last_name'] . " ima " . $data['id3']['age'] . " godina i nije udata. " . "Ima prosecnu ocenu " . $data['id3']['avg_rating'] . "," . " a kurseve koje trenutno slusa su: " . $data['id3']['courses'] . "<br>";
 echo $data['id4']['name'] . " " . $data['id4']['last_name'] . " ima " . $data['id4']['age'] . " godina i udata je. " . "Ima prosecnu ocenu " . $data['id4']['avg_rating'] . "," . " a kurseve koje trenutno slusa su: " . $data['id4']['courses'] . "<br>";
 echo $data['id5']['name'] . " " . $data['id5']['last_name'] . " ima " . $data['id5']['age'] . " godina i ozenjen je. " . "Ima prosecnu ocenu " . $data['id5']['avg_rating'] . "," . " a kurseve koje trenutno slusa su: " . $data['id5']['courses'] . "<br>";
+
 */
+
 ?>
