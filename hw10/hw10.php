@@ -9,7 +9,7 @@ Drugi broj:
 <input type="number" name="broj2" /><br>
 <input  type="submit" name="submit" value="sabiranje">  
         </form>  
-<?php  
+        <?php  
 /*
     if(isset($_POST['submit']))  
     {  
