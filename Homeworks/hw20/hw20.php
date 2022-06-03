@@ -43,7 +43,8 @@
     
 
     public function displayMe() {
-        echo $this->email . $this->phone;
+        echo $this->phone;
+        echo $this->email;
     }
 
 
