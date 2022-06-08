@@ -1,3 +1,4 @@
+
 <?php
 
 require_once __DIR__ . "/models/products-model.php";
@@ -42,3 +43,14 @@ require __DIR__ . "/views/v-products.php";
 
 // FOOTER
 require __DIR__ . "/views/_layout/v-footer.php";
+
+?>
+
+
+
+</body>
+</html>
+
+
+
+

@@ -9,6 +9,9 @@
             <input class="col-7" type="text" name="filter">
             <button type="submit" class="btn btn-warning col-2">Search</button>
         </form>
+
+        
+
         <div class="row">
             <?php foreach ($products as $product) { ?>
             <article class="single-product col-4 row mt-3 mb-5">
