@@ -57,7 +57,7 @@ class ShoppingCartItem extends Product {
 }
 
 class ShoppingCart {
-    public $cartItems = [];  //u niz ubacujem shopping cart iteme (prema barcodu kao id-u)
+    public $cartItems = [];  
 
     public function setCartItems($cartItems) {
         $this->cartItems=$cartItems; 
@@ -96,7 +96,7 @@ class ShoppingCart {
     $items=listAllItems();
 
     public function removeItems() {
-        //ovde prosledjujem $productBarCode (to mi je kao id sad-unique)
+        
         if(!empty($_SESSION['cartItems'])) {
             foreach (($_SESSION['cartItems'] as $key=>$item) {
                 if($item==$product) {
