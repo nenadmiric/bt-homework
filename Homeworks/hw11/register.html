@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="get" action="register.php">
+        <label for="ime">Ime:</label>
+        <input type="text" id="ime" name="ime" placeholder="Petar"><br>
+        <label for="prezime">Prezime:</label>
+        <input type="text" id="prezime" name="prezime" placeholder="Petrovic"><br><br>
+        <label>Izaberi pol:</label>
+        <input type="radio" id="male" class="pol" value="muski" name="gender">
+        <label for="male">Muski</label>
+        <input type="radio" id="female" class="pol" value="zenski" name="gender">
+        <label for="female">Zenski</label><br><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="imeprezime@gmail.com"><br>
+        <label for="password">Šifra:</label>
+        <input type="password" id="password" name="password" placeholder="your password" minlength="8"><br>
+        <label for="re-password">Ponovljena šifra:</label>
+        <input type="password" id="re-password" name="re_password" placeholder="your password" minlength="8"><br><br>
+        <label for="kursevi">Kursevi koje upisujem:</label><br>
+        <input type="checkbox" class="kurs" value="htmlicss" name="kursevi">HTML i CSS<br>
+        <input type="checkbox" class="kurs" value="javascript" name="kursevi">JavaScript<br>
+        <input type="checkbox" class="kurs" value="php" name="kursevi">PHP<br>
+        <input type="checkbox" class="kurs" value="net" name="kursevi">Net<br><br>
+        <label for="slika">Vaša fotografija:</label><br>
+        <input type="file" id="slika" name="slika"><br><br>
+        <label for="sacuvaj">Sacuvaj unete podatke:</label><br>
+        <button type="submit" value="Sacuvaj" id="sacuvaj" name="sacuvaj">Sacuvaj</button><br><br>
+        <label for="ponisti">Ponisti unete podatke:</label><br>
+        <button type="reset" value="Ponisti" id="ponisti" name="ponisti">Ponisti</button><br><br>
+    </form>
+</body>
+</html>
